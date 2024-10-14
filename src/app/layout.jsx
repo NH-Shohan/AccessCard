@@ -1,5 +1,6 @@
 import { Inter, Rajdhani } from "next/font/google";
 
+import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
 const rajdhani = Rajdhani({
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         className={`${inter.variable} ${rajdhani.variable} antialiased h-screen bg-neutral-950 text-neutral-100`}
       >
         {children}
+        <Toaster position="top-right" richColors />
       </body>
     </html>
   );

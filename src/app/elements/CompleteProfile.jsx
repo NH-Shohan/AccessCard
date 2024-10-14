@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Divider from "@/components/ui/divider";
 import { useState } from "react";
 import PersonalInfo from "./forms/PersonalInfo";
+import SocialLink from "./forms/SocialLink";
 import WebLink from "./forms/WebLink";
 
 const CompleteProfile = ({
@@ -27,8 +28,11 @@ const CompleteProfile = ({
       <PersonalInfo />
       <Divider />
       <WebLink />
-      <Button onClick={handleClickNext} className="w-1/5 mt-3">
-        Next
+      <Divider />
+      <SocialLink />
+
+      <Button onClick={handleClickNext} className="w-full mt-3">
+        Complete Profile
       </Button>
     </div>
   );

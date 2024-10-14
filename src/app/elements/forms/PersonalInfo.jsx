@@ -42,7 +42,7 @@ const PersonalInfo = () => {
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)}>
             <div className="space-y-3">
-              <div className="flex gap-3">
+              <div className="grid grid-cols-2 gap-3">
                 <FormField
                   control={form.control}
                   name="firstName"
@@ -74,7 +74,7 @@ const PersonalInfo = () => {
                   )}
                 />
               </div>
-              <div className="flex gap-3">
+              <div className="grid grid-cols-2 gap-3">
                 <FormField
                   control={form.control}
                   name="phoneNumber"

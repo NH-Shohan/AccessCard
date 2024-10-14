@@ -85,7 +85,7 @@ const Stepper = ({ stepsConfig = [] }) => {
                 </div>
               </div>
               <small
-                className={`${
+                className={`text-xs ${
                   currentStep > index + 1 || isComplete ? "text-blue-500" : ""
                 } ${currentStep === index + 1 ? "text-blue-50" : ""}`}
               >

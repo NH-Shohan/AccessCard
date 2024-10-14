@@ -24,8 +24,8 @@ const REGISTER_STEPS = [
 
 const Register = () => {
   return (
-    <main className="h-screen w-screen p-3">
-      <section className="bg-patterns-black w-full h-full rounded-2xl p-4 pt-8 md:p-16 overflow-y-scroll">
+    <main className="h-screen w-screen p-2 md:p-4">
+      <section className="bg-patterns-black w-full h-full rounded-2xl p-2 pt-8 md:p-16 overflow-y-scroll">
         <Image src={logo} alt="logo" priority />
 
         <Stepper stepsConfig={REGISTER_STEPS} />

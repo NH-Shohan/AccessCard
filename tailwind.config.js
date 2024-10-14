@@ -56,15 +56,12 @@ module.exports = {
           5: "hsl(var(--chart-5))",
         },
       },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
-      },
       animation: {
         scroll:
           "scroll var(--animation-duration, 120s) var(--animation-direction, forwards) linear infinite",
         "caret-blink": "caret-blink 1.25s ease-out infinite",
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
       },
       keyframes: {
         scroll: {
@@ -73,8 +70,28 @@ module.exports = {
           },
         },
         "caret-blink": {
-          "0%,70%,100%": { opacity: "1" },
-          "20%,50%": { opacity: "0" },
+          "0%,70%,100%": {
+            opacity: "1",
+          },
+          "20%,50%": {
+            opacity: "0",
+          },
+        },
+        "accordion-down": {
+          from: {
+            height: "0",
+          },
+          to: {
+            height: "var(--radix-accordion-content-height)",
+          },
+        },
+        "accordion-up": {
+          from: {
+            height: "var(--radix-accordion-content-height)",
+          },
+          to: {
+            height: "0",
+          },
         },
       },
     },

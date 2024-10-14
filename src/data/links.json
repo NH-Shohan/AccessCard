@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "website": "facebook.com",
+    "name": "Facebook",
+    "logo": "/icons/facebook.svg"
+  },
+  {
+    "id": 2,
+    "website": "whatsapp.com",
+    "name": "WhatsApp",
+    "logo": "/icons/whatsapp.svg"
+  },
+  {
+    "id": 4,
+    "website": "instagram.com",
+    "name": "Instagram",
+    "logo": "/icons/instagram.svg"
+  },
+  {
+    "id": 3,
+    "website": "youtube.com",
+    "name": "YouTube",
+    "logo": "/icons/youtube.svg"
+  },
+  {
+    "id": 5,
+    "website": "tiktok.com",
+    "name": "TikTok",
+    "logo": "/icons/tiktok.svg"
+  },
+  {
+    "id": 6,
+    "website": "telegram.org",
+    "name": "Telegram",
+    "logo": "/icons/telegram.svg"
+  },
+  {
+    "id": 17,
+    "website": "github.com",
+    "name": "GitHub",
+    "logo": "/icons/github.svg"
+  },
+  {
+    "id": 7,
+    "website": "snapchat.com",
+    "name": "Snapchat",
+    "logo": "/icons/snapchat.svg"
+  },
+  {
+    "id": 8,
+    "website": "x.com",
+    "name": "X",
+    "logo": "/icons/x.svg"
+  },
+  {
+    "id": 9,
+    "website": "pinterest.com",
+    "name": "Pinterest",
+    "logo": "/icons/pinterest.svg"
+  },
+  {
+    "id": 10,
+    "website": "reddit.com",
+    "name": "Reddit",
+    "logo": "/icons/reddit.svg"
+  },
+  {
+    "id": 11,
+    "website": "linkedin.com",
+    "name": "LinkedIn",
+    "logo": "/icons/linkedin.svg"
+  },
+  {
+    "id": 12,
+    "website": "quora.com",
+    "name": "Quora",
+    "logo": "/icons/quora.svg"
+  },
+  {
+    "id": 13,
+    "website": "discord.com",
+    "name": "Discord",
+    "logo": "/icons/discord.svg"
+  },
+  {
+    "id": 16,
+    "website": "threads.net",
+    "name": "Threads",
+    "logo": "/icons/threads.svg"
+  }
+]
